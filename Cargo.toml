@@ -3,6 +3,7 @@ name = "one_ordinary_man_file_sorter"
 version = "0.1.0"
 edition = "2021"
 authors = ["One_Ordinary_Man"]
+description = "This is a file sorter that sorts files into directories"
 license = "GPL-3.0-or-later"
 categories = ["command-line-utilities", "filesystem"]
 
