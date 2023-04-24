@@ -1,4 +1,9 @@
+//! # File Sorter
+//! Sorts the files into different directories
+//! Simply run the binary in the directory to be sorted.
+//! **Will not sort sub directories.**
 pub mod file_fetcher {
+    //! fetches the files and classifies them
     use std::{fs, fs::DirEntry, io};
     pub struct ClassifiedFiles {
         pub document_files: Vec<DirEntry>,
@@ -121,6 +126,7 @@ pub mod file_fetcher {
 }
 
 pub mod file_operations {
+    //! Creating the directories and moving the files in.
     use super::file_fetcher;
     use std::{fs, path::Path, process};
     pub fn create_directories(&directories: &[&Path; 5]) {

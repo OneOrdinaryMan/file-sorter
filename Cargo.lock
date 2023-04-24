@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "file_sorter"
+name = "one_ordinary_man_file_sorter"
 version = "0.1.0"
